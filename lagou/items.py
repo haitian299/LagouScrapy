@@ -1,0 +1,28 @@
+#coding=utf-8
+
+
+from scrapy.item import Item, Field
+
+class LagouItem(Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    position = Field()
+    positionUrl = Field()
+    department = Field()
+    salary = Field()
+    city = Field()
+    workYear = Field()
+    education = Field()
+    fulltime = Field()
+    advantage = Field()
+    postTime = Field()
+    description = Field()
+    company = Field()
+    companyPage = Field()
+    companyField = Field()
+    companyUrl = Field()
+    companyPopulation = Field()
+    companyStatus = Field()
+    investors = Field()
+    address = Field()
+
