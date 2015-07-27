@@ -61,9 +61,9 @@ NEWSPIDER_MODULE = 'lagou.spiders'
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'lagou.pipelines.SomePipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'lagou.pipelines.JsonWriterPipeline': 800,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

@@ -18,11 +18,11 @@ class LagouItem(Item):
     postTime = Field()
     description = Field()
     company = Field()
+    companyImgUrl = Field()
     companyPage = Field()
     companyField = Field()
     companyUrl = Field()
     companyPopulation = Field()
     companyStatus = Field()
-    investors = Field()
     address = Field()
 
