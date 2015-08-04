@@ -16,7 +16,7 @@ class LagouSpider(CrawlSpider):
     ]
     rules = (
         
-        Rule(LinkExtractor(allow=(r'http://www.lagou.com/jobs/\d+\.html', )), callback='parse_item'),
+        Rule(LinkExtractor(allow=(r'http://www.lagou.com/jobs/\d+\.html', )), callback='parse_item', follow=True),
     )
 
     def parse_item(self, response):
